@@ -1,0 +1,448 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(202, 202, 202);
+}
+
+header {
+    clear: left;
+}
+
+.school-img {
+    width: 100%;
+}
+
+nav {
+    margin: -4px 0 0 0;
+    
+    min-width: 410px;
+    height: 700px;
+
+    background: rgb(10, 33, 70);
+
+    text-align: left;
+
+    float: left;
+}
+
+nav ul {
+    margin: -4px 0 0 0;
+    padding: 8px 0;
+}
+
+nav li {
+    margin: 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+hr {
+    margin-left: 0;
+    width: 95%;
+}
+
+.nav {
+    font-size: 22px;
+    text-align: center;
+
+    color: rgb(238, 238, 238);
+
+    margin: 15px 0 0 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    font-size: 20px;
+    text-align: left;
+
+    color: rgb(196, 196, 196);
+    background: rgb(10, 33, 70);
+
+    margin: 0 0 0 0;
+    padding: 4px 10px 4px 10px;
+
+    transition: padding 0.5s;
+}
+
+nav a:hover {
+    font-size: 22px;
+
+    color: #fff;
+    background: rgb(5, 35, 83);
+
+    padding: 4px 20px 4px 20px;
+}
+
+nav a:active {
+    font-size: 18px;
+
+    color: rgb(97, 97, 97);
+    background: rgb(5, 16, 34);
+
+    padding: 4px 20px 4px 5px;
+}
+
+pre {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.this-page {
+    background: rgb(76, 110, 165);
+}
+
+.this-page:hover {
+    background: rgb(91, 140, 219);
+}
+
+.this-page:active {
+    background: rgb(48, 71, 107);
+}
+
+div {
+    color: rgb(27, 27, 27);
+
+    font-size: 20px;
+
+    margin: 20px 0 20px 30px;
+
+    min-width: 150px;
+    max-width: 900px;
+
+    float: left;
+}
+
+div li {
+    list-style: square;
+    margin: 5px;
+}
+
+div a {
+    color:rgb(3, 70, 109);
+    font-size: 20px;
+
+    transition: font-size 0.5s;
+}
+
+div a:hover {
+    color: rgb(11, 126, 192);
+
+    font-size: 22px;
+}
+
+div a:active {
+    color: rgb(0, 40, 63);
+
+    font-size: 18px;
+}
+
+.distance-learning {
+    display: none;
+}
+
+div span {
+    display: block;
+}
+
+div img {
+    max-height: 350px;
+    max-width: 500px;
+}
+
+.administration {
+    margin-top: 10px;
+}
+
+div div {
+    margin-top: -20px;
+}
+
+div div p {
+    margin: 15px 20px 0 0;
+}
+
+.news-div {
+    margin-top: -10px
+}
+
+details {
+    margin-top: 5px;
+}
+
+summary {
+    color: rgb(3, 70, 109);
+    cursor: pointer;
+}
+
+summary:hover {
+    color: rgb(11, 126, 192);
+}
+
+summary:active {
+    color: rgb(0, 40, 63);
+}
+
+.news-container {
+    margin-top: -5px;
+}
+
+.date {
+    font-size: 14px;
+    float: right;
+}
+
+.day-news-container {
+    margin: -12px 0 0 0;
+    display: visible;
+}
+
+.day-news-container a {
+    margin: -20px -15px 0 12px;
+}
+
+.day-news {
+    color: rgb(238, 27, 220);  
+}
+
+h3 {
+    margin: -15px 0 -5px 15px;
+    color:rgb(54, 54, 54)
+}
+
+h4 {
+    font-size: 18px;
+
+    color:rgb(73, 73, 73);
+
+    margin: 0 0 0 15px;
+}
+
+.methodical-work-p {
+    margin: 0;
+    font-size: 18px;
+}
+
+p {
+    margin: -15px 0 0 15px;
+}
+
+.center-p {
+    text-align: center;
+}
+
+th, td {
+    font-size: 16px;
+    text-align: center;
+}
+
+td div {
+    align-items: center;
+    text-align: center;
+
+    margin: 0;
+    padding: 10px 0 0 0;
+
+    background: rgb(245, 245, 245);
+
+    width: 100%;
+}
+
+video {
+    width: 40%;
+}
+
+.class-number {
+    font-size: 22px;
+
+    color: rgb(25, 13, 197);
+
+    margin: 0 0 0 -40px;
+
+    transition: font-size 0.5s;
+}
+
+.class-number:hover {
+    font-size: 24px;
+
+    color:rgb(22, 6, 245)
+}
+
+.class-number:active {
+    font-size: 20px;
+
+    color:rgb(25, 17, 129)
+}
+
+footer {
+    font-size: 18px;
+    text-align: right;
+
+    color:rgb(4, 56, 141);
+    background: rgb(20, 20, 20);
+    
+    padding: 10px 20px;
+
+    max-width: 100%;
+
+    clear: left;
+}
+
+footer img {
+    margin: 5px 10px;
+
+    max-width: 35px;
+    
+    filter: invert(100%) contrast(20%);
+    
+    transition: max-width 0.5s;
+}
+
+footer img:hover {
+    max-width: 45px;
+
+    filter: invert(100%) contrast(80%);
+}
+
+footer img:active {
+    max-width: 25px;
+
+    filter: invert(30%);
+}
+
+
+/* Mobile */
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+
+    nav {
+        min-width: 100%;
+        height: 530px; /* 530px при distance-learning {display:none;} (147 рядок у style.css)  і 
+        590px при distance-learning {display:block;} */
+    }
+
+    .nav {
+        margin: 15px 0 0 0;
+    }
+
+    hr {
+        width: 95%;
+    }
+
+    nav a {
+        font-size: 16px;
+        
+        padding: 4px 20px 4px 10px;
+    }
+
+    nav a:hover {
+        font-size: 18px;
+
+        padding: 8px 24px 8px 15px;
+    }
+
+    nav a:active {
+        font-size: 14px;
+
+        padding: 2px 16px 2px 5px;
+    }
+
+    div {
+        margin: 5px 0 20px 5px;
+
+        max-width: 100%;
+    }
+    
+    div img {
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    div video {
+        width: 80%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer img {
+        margin: 5px 20px;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    
+    nav {
+        min-width: 100%;
+        height: 600px; /* 600px при distance-learning {display:none;} (147 рядок у style.css)  і 
+        750px при distance-learning {display:block;} */
+    }
+
+    .nav {
+        margin: 15px 0 0 0;
+    }
+
+    hr {
+        width: 95%;
+    }
+
+    nav a {
+        font-size: 20px;
+        
+        padding: 4px 10px 4px 10px;
+    }
+
+    nav a:hover {
+        font-size: 22px;
+
+        padding: 8px 24px 8px 15px;
+    }
+
+    nav a:active {
+        font-size: 18px;
+
+        padding: 2px 16px 2px 5px;
+    }
+
+    div {
+        margin: 5px 0 20px 30px;
+
+        max-width: 100%;
+    }
+
+    div video {
+        width: 80%;
+    }
+
+
+    div a {
+        font-size: 24px;
+    }
+
+    div img {
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer img {
+        margin: 5px 20px;
+    }
+}
